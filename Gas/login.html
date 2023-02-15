@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="CSS/general.css">
+    <link rel="stylesheet" href="CSS/login.css">
+
+    <style>
+        .header_logo{
+            margin-top: 40px;
+        }
+        
+        body{
+            background-image: url("image/background.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        a{
+            color: white;
+        }
+        a:hover{
+            color: rgb(205, 205, 11);
+        }
+    </style>
+
+</head>
+<body>
+    <center><img src="image/logo.jpg" style="height:100px" class="header_logo"></center>
+    <div class="layout">
+        <form>
+            <div><label>Username</label></div><br>
+            <div><input type="text" name="user_name" placeholder="Username"></div> <br><br>  
+            <div><label>Password</label></div><br>
+            <div><input type="password" name="password" placeholder="Password"></div><br><br>
+             <center><button type="submit" name="submit" class="btn">Sign in</button><br><br>
+             <div class="links">
+                <a href="#">Forgot Password</a><br><br>
+                <a href="#">Sign in with  <strong>Google</strong> or <strong> facebook</strong></a>
+                <a href="singup.html"> <h2>Create Account</h2></a>
+            </div>
+        </center>
+        </form>
+    </div>
+</body>
+</html>

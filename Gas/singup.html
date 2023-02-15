@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup_page</title>
+    <link rel="stylesheet" href="CSS/general.css">
+    <style>
+        .layout{
+    margin-top: 60px;
+    height: 500px;
+}
+
+.btn{
+    height: 50px;
+    width: 500px;
+    border-radius: 30px;
+    font-size: 25px;
+    background-color: red;
+    color: white;
+    border-width: 1px;
+    padding:5px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(185, 8, 8);
+}
+.out{
+    display: flex;
+    flex-direction: row;
+}
+.heading{
+    font-size: 50px;
+}
+a{
+    color: black;
+}
+    </style>
+</head>
+<body>
+
+    <center>    <img src="image/fevicon.png" style="height: 100px;"><h1 class="heading">GAS AGENCY</h1></center>
+    <div class="out">
+     <div class="layout">
+        <form>
+            <div><label>Full Name</label></div><br>
+            <div><input type="text" name="name" placeholder="Full Name"></div><br><br>
+            <div><label>Username</label></div><br>
+            <div><input type="email" name="email" placeholder="User Name"></div><br><br>
+            <div><label>Password</label></div><br>
+            <div><input type="password" name="password" placeholder="Password"></div><br><br>
+            <div><label>Confirm Password</label></div><br>
+            <div><input type="password" name="confirm_password" placeholder="Confirm Password"></div><br><br>
+            <button type="submit" name="submit" class="btn">Signup</button><br><br>
+            <a href="login.html"><h4>already have account ?? Login</h4></a>
+        </form>
+        
+     </div>
+     <div>
+        <img src="image/banner3.jpg" style="height:700px">
+     </div>
+    </div>
+</body>
+</html>

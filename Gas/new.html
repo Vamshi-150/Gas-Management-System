@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new Connection</title>
+    <style>
+        .register{
+    display:flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 100%;
+    margin-top: 50px;
+   margin: 30px;
+   
+}
+form{
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    background-color: rgba(161, 161, 161, 0.6);
+}
+label{
+    font-size:25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+input{
+    font-size: 20px;
+}
+body{
+    background-image: url("image/b21.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.submit{
+    height:50px;
+    width: 20%;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.head-btn{
+    color: white;
+    background-color: black;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+    <div>
+        <a href="home.php"><button class="head-btn" style="cursor: pointer;">Home</button></a>
+</div>
+    <div class="register">
+        <form action="mailto:bhargavonlinee@gmail.com"  method="post" enctype="text/plain">
+           <label for="name">Name</label><br><br>
+           <input type="text" name="name" id="name"style="width: 100%;height:40px"><br><br>
+           <label for="Gender">Gender</label><br><br>
+           <input type="text" id="Gender"style="width: 100%;height:40px "><br><br>
+           <label for="phone">Moblie No</label><br><br>
+           <input type="tel" id="phone"style="width: 100%;height:40px "><br><br>
+           <label for="Id">ID Proof</label><br><br>
+           <input type="text" id="Id"style="width: 100%;height:40px "><br><br>
+           <label for="message">Message</label><br><br>
+           <input id="message" name="message" type="text" style="width: 100%; height:130px;"><br><br>
+           <center><button type="submit" class="submit">Submit</button></center>
+           <br>
+   
+       </form>
+   </div>
+</body>
+</html>

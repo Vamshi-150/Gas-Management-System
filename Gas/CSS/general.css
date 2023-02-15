@@ -1,0 +1,36 @@
+.layout{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    margin-top: 80px;
+    height: 500px;
+}
+form{
+    margin: auto;
+    
+}
+label{
+    font-size: 25px;
+}
+input{
+    height: 50px;
+    width: 500px;
+    border-radius: 30px;
+    font-size: 20px;
+    border-width: 1px;
+}
+.btn{
+    height: 50px;
+    width: 500px;
+    border-radius: 30px;
+    font-size: 25px;
+    background-color: red;
+    color: white;
+    border-width: 1px;
+    padding:5px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(185, 8, 8);
+}

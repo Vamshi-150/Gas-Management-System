@@ -1,0 +1,45 @@
+.header{
+    border: 1px solid;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #2b2b2b ;
+    margin: -10px;
+}
+.head-btn{
+    height:50px;
+    width: auto;
+    font-size: 18px;
+    border: none;
+    background-color: white;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.head-btn:hover{
+    cursor: pointer;
+    color: rgb(33, 83, 220);
+}
+body{
+    background-image: url("../image/b1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+.b{
+    color: white;
+    font-size: 75px;
+    margin-top: 80px;
+    margin-left: 500px;
+}
+.about{
+    width: 1200px;
+    color:  white;
+    margin: auto;
+    font-size: 35px;
+  
+}

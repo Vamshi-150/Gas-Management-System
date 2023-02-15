@@ -1,0 +1,17 @@
+.header_logo{
+    margin-top: 40px;
+}
+
+body{
+    background-image: url("../image/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: rgb(205, 205, 11);
+}
